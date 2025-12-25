@@ -13,8 +13,8 @@ describe('Calculator', () => {
         expect(subtract(5, 3)).toBe(2);
     });
 
-    test('multiplies 4 * 3 to equal 12', () => {
-        expect(multiply(4, 3)).toBe(12);
+    test('multiplies 5 * 3 to equal 12', () => {
+        expect(multiply(5, 3)).toBe(15);
     });
 
     test('divides 10 / 2 to equal 5', () => {
